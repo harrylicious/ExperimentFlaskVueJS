@@ -11,7 +11,7 @@ export default {
     },
     {
       title: true,
-      name: 'Theme',
+      name: '',
       class: '',
       wrapper: {
         element: '',
@@ -19,23 +19,65 @@ export default {
       }
     },
     {
-      name: 'Colors',
-      url: '/theme/colors',
-      icon: 'icon-drop'
+      name: 'Produk',
+      url: '/produk',
+      icon: 'icon-notebook',
+      children: [
+        {
+          name: 'Tambah',
+          url: '/tambah/0',
+          icon: 'icon-cursor'
+        },
+        {
+          name: 'Daftar',
+          url: '/demo',
+          icon: 'icon-cursor'
+        },
+        {
+          name: 'Kategori',
+          url: '/kategori',
+          icon: 'icon-cursor'
+        },
+        {
+          name: 'Review',
+          url: '/review',
+          icon: 'icon-cursor'
+        }
+      ]
     },
     {
-      name: 'Typography',
-      url: '/theme/typography',
-      icon: 'icon-pencil'
+      name: 'Pembeli',
+      url: '/pembeli',
+      icon: 'icon-user',
+      children: [
+        {
+          name: 'Tambah',
+          url: '/tambah/0',
+          icon: 'icon-cursor'
+        },
+        {
+          name: 'Daftar',
+          url: '/demo',
+          icon: 'icon-cursor'
+        }
+      ]
     },
     {
-      title: true,
-      name: 'Components',
-      class: '',
-      wrapper: {
-        element: '',
-        attributes: {}
-      }
+      name: 'Transaksi',
+      url: '/transaksi',
+      icon: 'icon-handbag',
+      children: [
+        {
+          name: 'Pembelian',
+          url: '/beli/0',
+          icon: 'icon-cursor'
+        },
+        {
+          name: 'Suppli',
+          url: '/suppli',
+          icon: 'icon-cursor'
+        }
+      ]
     },
     {
       name: 'Base',
@@ -123,6 +165,25 @@ export default {
           icon: 'icon-puzzle'
         }
       ]
+    },
+    {
+      name: 'Colors',
+      url: '/theme/colors',
+      icon: 'icon-drop'
+    },
+    {
+      name: 'Typography',
+      url: '/theme/typography',
+      icon: 'icon-pencil'
+    },
+    {
+      title: true,
+      name: 'Components',
+      class: '',
+      wrapper: {
+        element: '',
+        attributes: {}
+      }
     },
     {
       name: 'Buttons',

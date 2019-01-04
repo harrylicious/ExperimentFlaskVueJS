@@ -53,6 +53,8 @@ const Page404 = () => import('@/views/pages/Page404')
 const Page500 = () => import('@/views/pages/Page500')
 const Login = () => import('@/views/pages/Login')
 const Register = () => import('@/views/pages/Register')
+const DaftarDemo = () => import('@/views/pages/DaftarDemo')
+const TambahData = () => import('@/views/pages/TambahData')
 
 // Users
 const Users = () => import('@/views/users/Users')
@@ -75,6 +77,16 @@ export default new Router({
           path: 'dashboard',
           name: 'Dashboard',
           component: Dashboard
+        },
+        {
+          path: 'demo',
+          name: 'DaftarDemo',
+          component: DaftarDemo
+        },
+        {
+          path: 'tambah/:id',
+          name: 'TambahData',
+          component: TambahData
         },
         {
           path: 'theme',

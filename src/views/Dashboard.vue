@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div class="animated fadeIn">
     <b-row>
       <b-col sm="6" lg="3">
@@ -13,8 +13,8 @@
               <b-dropdown-item>Something else here...</b-dropdown-item>
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
-            <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
+            <h4 class="mb-0">5</h4>
+            <p>Jumlah Produk</p>
           </b-card-body>
           <card-line1-chart-example chartId="card-chart-01" class="chart-wrapper px-3" style="height:70px;" :height="70"/>
         </b-card>
@@ -31,8 +31,8 @@
               <b-dropdown-item>Something else here...</b-dropdown-item>
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
-            <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
+            <h4 class="mb-0">3</h4>
+            <p>Jumlah Produk</p>
           </b-card-body>
           <card-line2-chart-example chartId="card-chart-02" class="chart-wrapper px-3" style="height:70px;" :height="70"/>
         </b-card>
@@ -50,7 +50,7 @@
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
             <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
+            <p>Jumlah Supplier</p>
           </b-card-body>
           <card-line3-chart-example chartId="card-chart-03" class="chart-wrapper" style="height:70px;" height="70"/>
         </b-card>
@@ -68,7 +68,7 @@
               <b-dropdown-item disabled>Disabled action</b-dropdown-item>
             </b-dropdown>
             <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
+            <p>Transaksi</p>
           </b-card-body>
           <card-bar-chart-example chartId="card-chart-04" class="chart-wrapper px-3" style="height:70px;" height="70"/>
         </b-card>
